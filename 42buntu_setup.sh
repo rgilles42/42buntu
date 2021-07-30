@@ -88,5 +88,5 @@ echo "export USER='$USER'" >> ~/.zshrc
 echo "export MAIL='$USER@student.42.fr'" >> ~/.zshrc
 
 # Initialise git identity
-git config --global user.user \"$USER\"
-git config --global user.email \"$USER@student.42.fr\"
+git config --global user.name $USER
+git config --global user.email $USER@student.42.fr
