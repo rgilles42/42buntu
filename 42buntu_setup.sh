@@ -86,3 +86,7 @@ mkdir -p ~/.vim/plugin/
 curl -o ~/.vim/plugin/stdheader.vim https://raw.githubusercontent.com/42Paris/42header/master/vim/stdheader.vim
 echo "export USER='$USER'" >> ~/.zshrc
 echo "export MAIL='$USER@student.42.fr'" >> ~/.zshrc
+
+# Initialise git identity
+git config --global user.email \"$USER@student.42.fr\"                                                                                                        
+git config --global user.user \"$USER\"
