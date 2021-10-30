@@ -65,6 +65,7 @@ sudo ln -sf /usr/bin/python3.7 /usr/bin/python3
 sudo ln -sf /usr/bin/python3 /usr/bin/python
 sudo ln -sf /usr/lib/python3/dist-packages/apt_pkg.cpython-36m-x86_64-linux-gnu.so /usr/lib/python3/dist-packages/apt_pkg.so
 sudo ln -sf /usr/lib/python3/dist-packages/apt_inst.cpython-36m-x86_64-linux-gnu.so /usr/lib/python3/dist-packages/apt_inst.so
+sudo ln -s /usr/lib/python3/dist-packages/gi/_gi.cpython-36m-x86_64-linux-gnu.so /usr/lib/python3/dist-packages/gi/_gi.so
 
 # Link clang*-9 to clang* to avoid having to use clang6 like in the VM (a simple alias in ~/.zshrc doesn't work outside of zsh)
 sudo ln -sf /usr/bin/clang-9 /usr/bin/clang
